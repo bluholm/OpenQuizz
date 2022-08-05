@@ -78,9 +78,8 @@ class ViewController: UIViewController {
                 questionView.title = game.currentQuestion.title
             case .over:
             questionView.title = "Game Over"
-            default:
-                break
         }
+        
         
         
         let screenWidth = UIScreen.main.bounds.width
